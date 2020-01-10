@@ -33,6 +33,8 @@ Or install it yourself as:
 => "ϛ"
 ```
 
+Currently the method returns only a valid greek numeral representation for numbers in range `0..999`. For others it raises `Arithmos::Error`.
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
