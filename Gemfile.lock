@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    arithmos (0.1.0)
+    arithmos (0.1.1)
 
 GEM
   remote: https://rubygems.org/

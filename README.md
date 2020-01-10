@@ -1,8 +1,6 @@
 # Arithmos
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/arithmos`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Convert numbers to [greek numerals](https://en.wikipedia.org/wiki/Greek_numerals#Table).
 
 ## Installation
 
@@ -22,7 +20,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+`Arithmos` is a module that is being included automatically to `Numeric` class. It adds a `#greek` method to each numeral:
+
+```
+>> 274.greek
+=> "σοδ"
+>> 666.greek
+=> "χξϛ"
+>> 12.greek
+=> "ιβ"
+>> 6.greek
+=> "ϛ"
+```
 
 ## Development
 

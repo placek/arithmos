@@ -18,7 +18,7 @@ module Arithmos
     symbol = []
     GREEK_SYMBOLS.each_with_index do |(num, sym), count|
       symbol.push(sym * (multiplier / num))
-      multiplier = multiplier % num
+      multiplier %= num
     end
     symbol.join
   end
